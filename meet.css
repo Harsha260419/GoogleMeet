@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+}
+
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons li {
+  list-style-type: none;
+  display: inline;
+}
+
+.buttons {
+  margin-right: 5px;
+  text-align: center;
+  /* margin-top: 8px; */
+}
+
+.signIn {
+  color: #80868b;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  padding: 16px 8px;
+  padding-bottom: 9px;
+  cursor: pointer;
+  background-color: white;
+  font-family: roboto;
+  font-size: 16px;
+  margin-right: 0.2px;
+  /* margin-top: px; */
+  border-radius: 4px;
+  transition: background-color 0.2s, color 0.2s;
+  width: 75px;
+  height: 50px;
+
+}
+
+.signIn:hover {
+  color: black;
+  background-color: rgb(232, 226, 226,0.2);
+}
+
+.join {
+  color: #1a73e8;
+  background-color: #fff;
+  border: 1px solid #cdcdcd;
+  font-family: roboto;
+  font-weight: 500;
+  margin-left: 0.2px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 3px;
+  padding-right: 13px;
+  margin-top: 5px;
+  /* padding-bottom: 4px; */
+}
+
+.join:hover{
+  border: 1px solid #1a73e8;
+  background-color: rgb(35, 107, 195,0.2);
+}
+
+.joinlogo{
+  font-size: 16px;
+}
+
+.start {
+  color: #fff;
+  background-color: #1a73e8;
+  border: 1px solid #cdcdcd;
+  font-family: roboto;
+  font-weight: 500;
+  margin-left: 0.2px;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  border-radius: 3px;
+  padding-right: 13px;
+  margin-top: 5px;
+  /* padding-bottom: 4px; */
+}
+.create {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  background: blue;
+  border: none;
+  outline: none;
+  color: #fff
+}
+
+.logo {
+  display: inline-flex;
+  margin: 0 5px;
+  height: 100%;
+}
